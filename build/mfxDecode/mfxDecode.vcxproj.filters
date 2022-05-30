@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{ea0457df-8a1f-4077-9321-04a6d332775f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\get_socket_data.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\splitnalu.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\common\unpack.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mfxDecodeD3D9\d3d_surface.cpp" />
+    <ClCompile Include="..\..\src\mfxDecodeD3D9\main.cpp" />
+    <ClCompile Include="..\..\src\mfxDecodeD3D9\mfx_decode.cpp" />
+    <ClCompile Include="..\..\src\mfxDecodeD3D9\mfx_directx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\common\get_socket_data.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\splitnalu.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\unpack.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\vsnc_common_utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mfxDecodeD3D9\d3d_surface.h" />
+    <ClInclude Include="..\..\src\mfxDecodeD3D9\mfx_decode.h" />
+    <ClInclude Include="..\..\src\mfxDecodeD3D9\mfx_directx.h" />
+  </ItemGroup>
+</Project>
